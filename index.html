@@ -1,109 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Júlia Maria Dev - Portfólio Profissional</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f2f2f2;
-            color: #333;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-
-        h2 {
-            font-size: 24px;
-            color: #333;
-            margin-top: 30px;
-        }
-
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-
-        img {
-            float: right;
-            margin-left: 15px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 5px 0; /* Ajuste o valor de padding para diminuir a altura */
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Portfólio - FullStack JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
-        <h1>Portfólio Profissional Júlia Maria Dev</h1>
+        <h1>Portfólio de Júlia Maria Dev</h1>
+        <p>Profissional FullStack JavaScript em Formação</p>
     </header>
+    
+    <aside>
+        <img src="fotoportfolio.png" alt="Foto da Profissional" class="profile-pic">
+        <h2>Sobre Mim</h2>
+        <form id="about-me-form">
+            <label for="objective">Objetivo</label>
+            <h3>Busco oportunidades para aplicar e aprimorar minhas habilidades como Programadora Júnior, contribuindo para o desenvolvimento de projetos inovadores e soluções de alta qualidade.</h3>
 
-    <div class="container">
-        <h2>Sobre mim:</h2>
-        <p><img src="juliamariadev.jpg" alt="Júlia Maria Dev" style="width: 170px;height: 170px;">Olá, bem-vindo(a) ao meu portfólio profissional. Possuo primeira graduação em Nutrição pela Universidade do Distrito Federal. E por já haver interesse transicionei para a área de tecnologia, realizei cursos na instituição EBAC, TI do Zero ao Pro e Fullstack JavaScript. No momento estou me graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Senac do Distrito Federal.</p>
+            <label for="education">Formação Acadêmica</label>
+            <form>
+            <ul>
+                <li>Cursando Análise e Desenvolvimento de Sistemas - Faculdade Senac - DF, 2024 - Presente</li>
+                <li>Cursando Curso Profissionalizante em FullStack-JavaScript - EBAC, 2024</li>
+                <li>Curso de TI do Zero ao Pro - EBAC - Concluído em 2023</li>
+                <li>Inglês Avançado (Advanced English) CCAA, 2018 - 2021, Concluído.</li>
+            </ul>
 
-        <h2>Habilidades Profissionais:</h2>
+            <label for="hard-skills">Hard-Skills</label>
+            <form>
+            <ul>
+                <li>Linguagens: C++, JavaScript, Python, PHP, MySQL.</li>
+                <li>Ferramentas/Plataformas: Figma, Prototipação, Git.</li>
+                <li>Frameworks/Bibliotecas: Node.js, React, JQuery.</li>
+            </ul>
+
+            <label for="soft-skills">Soft-Skills</label>
+            <form>
+            <ul>
+                <li>Comunicação</li>
+                <li>Agilidade</li>
+                <li>Criatividade</li>
+                <li>Flexibilidade</li>
+                <li>Adaptabilidade</li>
+            </ul>
+        </form>
+    </aside>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
         <ul>
-            <li>Desenvolvimento Web</li>
-            <li>JavaScript</li>
-            <li>HTML5 e CSS3</li>
-            <li>Node.js</li>
-            <li>React.js</li>
-            <li>Express.js</li>
-            <li>Banco de Dados (SQL e NoSQL)</li>
-            <li>Git e Controle de Versão</li>
+            <li>
+                <div class="projeto">
+                    <img src="projeto1.png" alt="Projeto 1">
+                    <div class="overlay">
+                        <a href="https://galeriadefotos-j-query-ebac-6rhce0mt7-julia-maria-devs-projects.vercel.app" target="_blank">Ver Projeto 1</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="projeto">
+                    <img src="projeto2.png" alt="Projeto 2">
+                    <div class="overlay">
+                        <a href="https://tech-shop-h6vpmiaqm-julia-maria-devs-projects.vercel.app" target="_blank">Ver Projeto 2</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="projeto">
+                    <img src="projeto3.png" alt="Projeto 3">
+                    <div class="overlay">
+                        <a href="https://agendadecontatos-ebac-gpar9esui-julia-maria-devs-projects.vercel.app" target="_blank">Ver Projeto 3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="projeto">
+                    <img src="projeto4.png" alt="Projeto 4">
+                    <div class="overlay">
+                        <a href="https://exercicio-kfja2nznm-julia-maria-devs-projects.vercel.app" target="_blank">Ver Projeto 4</a>
+                    </div>
+                </div>
+            </li>
         </ul>
+    </section>
 
-        <h2>Formação Acadêmica:</h2>
-        <ul>
-            <li>Faculdade Senac DF - Curso Integrado, Análise de Sistemas de Computação (2024-2026)</li>
-            <li>EBAC - Escola Britânica de Artes Criativas e Tecnologia - Curso TI do Zero ao Pro e FullStack JavaScript (2024-2026)</li>
-        </ul>
+    <section id="contact">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="phone">Telefone Celular</label>
+            <input type="tel" id="phone" name="phone" value="61 99835-4903" readonly>
 
-        <h2>Contato:</h2>
-        <p>Para entrar em contato comigo, envie um email para juliamariabatista18@gmail.com</p>
-    </div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" value="juliamariabatista18@gmail.com" readonly>
 
-    <footer>
-        <p>&copy; 2024 Júlia Maria Dev - Todos os Direitos Reservados</p>
-    </footer>
+            <label for="linkedin">LinkedIn</label>
+            <input type="url" id="linkedin" name="linkedin" value="https://www.linkedin.com/in/júlia-maria-079843248/" readonly>
+        </form>
+    </section>
 </body>
 </html>
 
